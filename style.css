@@ -3,23 +3,23 @@
    ========================================== */
 :root {
   /* Color Palette */
-  --primary: #2E5BFF;        /* Royal Blue */
-  --primary-light: #547BFF;  /* Lighter Royal Blue */
-  --primary-dark: #1E3BB3;   /* Dark Royal Blue */
-  --accent: #F59E0B;         /* Amber/Gold Accent */
+  --primary: #8BE8CB;        /* Aquamarine */
+  --primary-light: #A7F0DB;  /* Lighter Aquamarine */
+  --primary-dark: #5DCBAA;   /* Darker Aquamarine */
+  --accent: #9C7A97;         /* Dusty Mauve */
   
-  --dark-base: #0A0A0C;      /* Deep Black */
-  --dark-surface: #121216;   /* Dark Gray/Black Surface */
+  --dark-base: #303633;      /* Gunmetal */
+  --dark-surface: #3D4542;   /* Lighter Gunmetal for contrast */
   --dark-border: rgba(255, 255, 255, 0.08);
   
-  --light-base: #F3F4F6;     /* Light gray background */
+  --light-base: #EAF0EE;     /* Soft greenish-gray base background */
   --light-surface: #ffffff;
   --light-border: rgba(0, 0, 0, 0.06);
   
   --text-dark-primary: #F3F4F6;
-  --text-dark-secondary: #9CA3AF;
-  --text-light-primary: #111827;
-  --text-light-secondary: #4B5563;
+  --text-dark-secondary: #888DA7; /* Lavender Grey */
+  --text-light-primary: #303633;  /* Gunmetal for high-contrast light text */
+  --text-light-secondary: #7EA2AA; /* Cool Steel */
   
   /* Layout & Animation variables */
   --sidebar-width: 300px;
