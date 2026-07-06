@@ -3,23 +3,23 @@
    ========================================== */
 :root {
   /* Color Palette */
-  --primary: #8BE8CB;        /* Aquamarine */
-  --primary-light: #A7F0DB;  /* Lighter Aquamarine */
-  --primary-dark: #5DCBAA;   /* Darker Aquamarine */
+  --primary: #23604F;        /* Deep Aquamarine/Teal (high-contrast text/links) */
+  --primary-light: #8BE8CB;  /* Vibrant Aquamarine (active states/borders) */
+  --primary-dark: #1A4E40;   /* Very Deep Teal (button hovers) */
   --accent: #9C7A97;         /* Dusty Mauve */
   
-  --dark-base: #303633;      /* Gunmetal */
-  --dark-surface: #3D4542;   /* Lighter Gunmetal for contrast */
-  --dark-border: rgba(255, 255, 255, 0.08);
+  --dark-base: #303633;      /* Gunmetal background */
+  --dark-surface: #3E4642;   /* Lighter Gunmetal surface */
+  --dark-border: rgba(255, 255, 255, 0.12);
   
   --light-base: #EAF0EE;     /* Soft greenish-gray base background */
   --light-surface: #ffffff;
-  --light-border: rgba(0, 0, 0, 0.06);
+  --light-border: rgba(0, 0, 0, 0.08);
   
-  --text-dark-primary: #F3F4F6;
-  --text-dark-secondary: #888DA7; /* Lavender Grey */
-  --text-light-primary: #303633;  /* Gunmetal for high-contrast light text */
-  --text-light-secondary: #7EA2AA; /* Cool Steel */
+  --text-dark-primary: #FFFFFF;    /* Crisp White */
+  --text-dark-secondary: #D2D5E3;  /* Crisp light Lavender Grey for readability */
+  --text-light-primary: #232826;   /* Dark Gunmetal for primary light text */
+  --text-light-secondary: #4F646A; /* Rich Cool Steel for secondary text on light bg */
   
   /* Layout & Animation variables */
   --sidebar-width: 300px;
@@ -139,7 +139,7 @@ img {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-md);
-  border-color: rgba(63, 114, 103, 0.2);
+  border-color: rgba(35, 96, 79, 0.2);
 }
 
 /* Buttons */
@@ -299,12 +299,12 @@ img {
 }
 
 .sidebar-nav .resume-link {
-  border: 1px dashed rgba(86, 142, 130, 0.4);
+  border: 1px dashed rgba(139, 232, 203, 0.4);
   margin-top: 1rem;
 }
 
 .sidebar-nav .resume-link:hover {
-  background-color: rgba(63, 114, 103, 0.1);
+  background-color: rgba(139, 232, 203, 0.1);
   border-color: var(--primary-light);
 }
 
@@ -495,7 +495,7 @@ img {
 
 .stat-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(63, 114, 103, 0.2);
+  border-color: rgba(35, 96, 79, 0.2);
   box-shadow: var(--shadow-md);
 }
 
@@ -534,7 +534,7 @@ img {
   left: 7px;
   width: 2px;
   height: 100%;
-  background-color: rgba(63, 114, 103, 0.15);
+  background-color: rgba(35, 96, 79, 0.15);
 }
 
 .timeline-item {
@@ -705,7 +705,7 @@ img {
   background-color: var(--primary);
   color: var(--text-dark-primary);
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(63, 114, 103, 0.2);
+  box-shadow: 0 4px 10px rgba(35, 96, 79, 0.2);
 }
 
 /* ==========================================
@@ -729,7 +729,7 @@ img {
   width: 50px;
   height: 50px;
   border-radius: 12px;
-  background-color: rgba(63, 114, 103, 0.08);
+  background-color: rgba(35, 96, 79, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -788,7 +788,7 @@ img {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background-color: rgba(63, 114, 103, 0.08);
+  background-color: rgba(35, 96, 79, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -860,7 +860,7 @@ img {
 .form-group textarea:focus {
   border-color: var(--primary-light);
   background-color: var(--light-surface);
-  box-shadow: 0 0 0 3px rgba(86, 142, 130, 0.1);
+  box-shadow: 0 0 0 3px rgba(139, 232, 203, 0.15);
 }
 
 .btn-submit {
