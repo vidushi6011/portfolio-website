@@ -3,23 +3,23 @@
    ========================================== */
 :root {
   /* Color Palette */
-  --primary: #3f7267;
-  --primary-light: #568e82;
-  --primary-dark: #294e46;
-  --accent: #e2ab5b;
+  --primary: #2E5BFF;        /* Royal Blue */
+  --primary-light: #547BFF;  /* Lighter Royal Blue */
+  --primary-dark: #1E3BB3;   /* Dark Royal Blue */
+  --accent: #F59E0B;         /* Amber/Gold Accent */
   
-  --dark-base: #111a18;
-  --dark-surface: #182522;
+  --dark-base: #0A0A0C;      /* Deep Black */
+  --dark-surface: #121216;   /* Dark Gray/Black Surface */
   --dark-border: rgba(255, 255, 255, 0.08);
   
-  --light-base: #f4f7f6;
+  --light-base: #F3F4F6;     /* Light gray background */
   --light-surface: #ffffff;
   --light-border: rgba(0, 0, 0, 0.06);
   
-  --text-dark-primary: #f0f4f3;
-  --text-dark-secondary: #a3b8b4;
-  --text-light-primary: #2c3e3a;
-  --text-light-secondary: #657e79;
+  --text-dark-primary: #F3F4F6;
+  --text-dark-secondary: #9CA3AF;
+  --text-light-primary: #111827;
+  --text-light-secondary: #4B5563;
   
   /* Layout & Animation variables */
   --sidebar-width: 300px;
