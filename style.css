@@ -371,7 +371,7 @@ img {
 }
 
 .name-gradient {
-  background: linear-gradient(135deg, #ffffff 30%, var(--accent) 100%);
+  background: linear-gradient(135deg, #ffffff 30%, var(--primary-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -384,13 +384,13 @@ img {
 }
 
 .typewriter-text {
-  color: var(--accent);
+  color: var(--primary-light);
   font-weight: 700;
 }
 
 .typewriter-cursor {
   animation: blink 0.8s infinite;
-  color: var(--accent);
+  color: var(--primary-light);
   margin-left: 2px;
 }
 
@@ -608,7 +608,7 @@ img {
   font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--primary-light);
+  color: var(--primary);
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
   display: block;
@@ -681,7 +681,7 @@ img {
 }
 
 .skill-category .category-title i {
-  color: var(--primary-light);
+  color: var(--primary);
 }
 
 .skill-tags {
@@ -741,7 +741,7 @@ img {
 .edu-info .edu-date {
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--primary-light);
+  color: var(--primary);
   letter-spacing: 0.5px;
   margin-bottom: 0.25rem;
   display: block;
